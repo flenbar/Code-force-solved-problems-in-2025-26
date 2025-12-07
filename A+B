@@ -1,0 +1,7 @@
+a=int(input())
+for I in range(a):
+    c=input()
+    d=int(c[0])
+    e=int(c[-1])
+    f=d+e
+    print(f)
