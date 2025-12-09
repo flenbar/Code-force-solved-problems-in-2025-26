@@ -1,0 +1,9 @@
+#NEXT ROUND
+a,b=map(int,input().split())
+e=list(map(int,input().split()))
+counts=0 
+h=e[b-1]  
+for k in e:
+    if k>=h and k>0:
+        counts+=1  
+print(counts)  
