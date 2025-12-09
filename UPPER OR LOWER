@@ -1,0 +1,13 @@
+#upper or lower the string
+a=input()
+countv=0
+countc=0
+for j in a:
+    if j.isupper():
+        countc+=1
+    else:
+        countv+=1   
+if countc>countv:
+    print(a.upper())
+else:
+    print(a.lower())
