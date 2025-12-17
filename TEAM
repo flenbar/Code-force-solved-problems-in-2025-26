@@ -1,0 +1,15 @@
+#TEAM
+a = int(input())
+count = 0 
+for i in range(a):
+    b = list(map(int, input().split()))
+    counts = 0
+    for j in b:
+        if j == 0:
+            counts += 1
+
+    if counts <= 1:
+        count += 1
+print(count)
+       
+                    
