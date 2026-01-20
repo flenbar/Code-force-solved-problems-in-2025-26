@@ -5,5 +5,5 @@ for i in range(a):
      if b>c:
          print(c,b)
      else:
-         print(c,b)    
+         print(b,c)    
         
