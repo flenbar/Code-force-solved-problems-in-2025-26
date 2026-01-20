@@ -1,0 +1,9 @@
+#my first sorting problem.py
+a=int(input())
+for i in range(a):
+     b,c=map(int,input().split())
+     if b>c:
+         print(c,b)
+     else:
+         print(c,b)    
+        
