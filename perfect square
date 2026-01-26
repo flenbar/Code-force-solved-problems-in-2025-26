@@ -1,0 +1,8 @@
+a=int(input())
+ 
+for i in range(a):
+    b=[]
+    c=int(input())
+    for j in range(c):
+        b.append(j+1)
+    print(*b)    
