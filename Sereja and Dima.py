@@ -1,0 +1,20 @@
+t=int(input())
+b=list(map(int,input().split()))
+both=[]
+s=[]
+d=[]
+left=0
+right=t-1
+while(left<=right):
+    if(b[left]>b[right]):
+        both.append(b[left])
+        left+=1
+    else:
+        both.append(b[right])
+        right-=1
+for i in range(t):
+    if(i%2==0):
+        s.append(both[i])
+    else:
+        d.append(both[i])
+print(sum(s),sum(d))        
