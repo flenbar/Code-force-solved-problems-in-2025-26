@@ -1,0 +1,10 @@
+a=input().strip()
+A=a.upper()
+b=input().strip()
+B=b.upper()
+if(A>B):
+    print(1)
+elif(A<B):
+    print(-1)
+else:
+    print(0)
