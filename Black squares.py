@@ -1,0 +1,7 @@
+a,b,c,d=map(int,input().split())
+x=input().strip()
+ones=x.count("1")
+twoes=x.count("2")
+threes=x.count("3")
+fours=x.count("4")
+print(ones*a+twoes*b+threes*c+fours*d)
