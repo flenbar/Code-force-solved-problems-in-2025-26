@@ -1,4 +1,3 @@
-# Code-force-solved-problems-in-2025-26
 🚀 Codeforces Solved Problems (2025–2026)
 
 Welcome to my coding journey! 👨‍💻✨
