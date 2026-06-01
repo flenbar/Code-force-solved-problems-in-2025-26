@@ -1,0 +1,9 @@
+#flenbar
+import math
+result = 0
+for i in range(5):
+    a = list(map(int,input().split()))
+    if 1 in a:
+        result += abs(i-2)
+        result += abs(a.index(1)-2)
+print(result)
